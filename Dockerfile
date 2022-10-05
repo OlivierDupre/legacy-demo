@@ -1,7 +1,6 @@
-FROM node:18.10.0-alpine3.16
+FROM node:0.11.14
 
 WORKDIR /usr/src/app
-
 ADD *.js .
 
 EXPOSE 9000
